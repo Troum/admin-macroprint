@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "technical_requirements",
+  "info": {
+    "singularName": "technical-requirement",
+    "pluralName": "technical-requirements",
+    "displayName": "Технические требования",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "requirements": {
+      "displayName": "Требования",
+      "type": "component",
+      "repeatable": true,
+      "component": "requirements.trebovaniya"
+    },
+    "files": {
+      "type": "component",
+      "repeatable": true,
+      "component": "files.fajly"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seo.seo",
+      "required": true
+    }
+  }
+}

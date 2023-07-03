@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_vacancy_requirements_trebovaniya_vakansii",
+  "info": {
+    "displayName": "Требования вакансии"
+  },
+  "options": {},
+  "attributes": {
+    "requirement": {
+      "type": "text",
+      "required": true,
+      "default": "Требование по вакансии"
+    }
+  }
+}

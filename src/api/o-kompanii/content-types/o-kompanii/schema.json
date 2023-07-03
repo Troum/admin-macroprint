@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "o_kompaniis",
+  "info": {
+    "singularName": "o-kompanii",
+    "pluralName": "o-kompaniis",
+    "displayName": "О компании",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

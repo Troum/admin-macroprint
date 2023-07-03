@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "SEO",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Заголовок для SEO"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "default": "Описание для SEO"
+    },
+    "og_title": {
+      "type": "string",
+      "required": true,
+      "default": "Заголовок для протокола Open Graph"
+    },
+    "og_description": {
+      "type": "text",
+      "default": "Описание для протокола Open Graph",
+      "required": true
+    }
+  }
+}

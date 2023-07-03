@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "requisites",
+  "info": {
+    "singularName": "requisite",
+    "pluralName": "requisites",
+    "displayName": "Реквизиты",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo",
+      "required": true
+    }
+  }
+}

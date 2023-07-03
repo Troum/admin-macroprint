@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "info_for_clients",
+  "info": {
+    "singularName": "for-clients",
+    "pluralName": "info-for-clients",
+    "displayName": "Клиентам",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo",
+      "required": true
+    }
+  }
+}

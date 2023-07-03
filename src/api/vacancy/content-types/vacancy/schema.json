@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vacancies",
+  "info": {
+    "singularName": "vacancy",
+    "pluralName": "vacancies",
+    "displayName": "Вакансии"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Название вакансии"
+    },
+    "description": {
+      "type": "richtext",
+      "default": "Описание вакансии",
+      "required": true
+    }
+  }
+}

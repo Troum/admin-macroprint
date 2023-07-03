@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "comapny_history_info",
+  "info": {
+    "singularName": "company-history",
+    "pluralName": "comapny-history-info",
+    "displayName": "История компании"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Заголовок страницы"
+    },
+    "description": {
+      "type": "richtext",
+      "default": "Контент страницы",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    }
+  }
+}

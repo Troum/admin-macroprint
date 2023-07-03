@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_articles",
+  "info": {
+    "singularName": "company-article",
+    "pluralName": "company-articles",
+    "displayName": "Новости компании",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Заголовок страницы"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo",
+      "required": true
+    }
+  }
+}

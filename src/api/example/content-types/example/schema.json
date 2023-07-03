@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "examples",
+  "info": {
+    "singularName": "example",
+    "pluralName": "examples",
+    "displayName": "Примеры работ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Набор наклеек для сети магазинов Виталюр"
+    },
+    "description": {
+      "type": "text",
+      "default": "Краткое описание проекта, нюансов, преимуществ",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "material": {
+      "type": "string"
+    }
+  }
+}
